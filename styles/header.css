@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ button:active {
+    transform: scale(1.1);
+ }
+ button:hover {
+    cursor: pointer;}
+    
+header{
+    height: 100vh;
+    width: 98.7vw;
+    /* background: url(./images/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png) no-repeat; */
+    background-color: rgb(203, 200, 200);
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+
+}
+.headerbar{
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    border-bottom: 1px solid blueviolet;
+    height: 13%;
+    padding: 1rem 0;
+}
+.headercontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(100vh - 13%);
+}
+.headerbar a{
+    text-decoration: none;
+    margin-right: 3rem;
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 70.187%; /* 0.78963rem */
+}
+.headerbar img{
+    margin-right: 10rem;
+}
+.headercontent select{
+    color: var(--text-color, #88d531); 
+    /* #252B42 */
+font-family: 'Poppins';
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.75rem; /* 200% */
+letter-spacing: 0.0125rem;
+height: 90%;
+/* padding: 0.75rem 2.1rem; */
+}
+header form{
+    display: flex;
+    width: 90%;
+}
+.formpart{
+    display: flex;
+    background-color: #FFF;
+    width: 90%;
+    height: 80%;
+    align-items: center;
+    border: 1px solid rgb(49, 61, 186);
+    margin: auto;
+    
+}
+.mappart{
+    width: 35%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    background-color: blanchedalmond;
+}
+.headercontent h1{
+    color: #FFF;
+font-family: 'Inter';
+font-size: 2.85rem;
+font-style: normal;
+font-weight: 600;
+line-height: 4.375rem; /* 134.615% */
+letter-spacing: -0.0625rem;
+text-transform: capitalize;
+width: 43%;
+}
+/* .formpart form{
+    
+    background-color: aquamarine;
+   
+    width: 90%;
+   
+} */
+/* background-color: #F9F9F9; */
+.formpartsub{
+    background-color: #FFF;
+    width: 90%;
+    height: 4.6rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+}
+.formpart img{
+    height: 3rem;
+}
+/* #neighborhood{
+    padding-right: 2rem;
+    padding-left: 0;
+} */

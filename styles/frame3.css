@@ -1,0 +1,104 @@
+.frame3{
+    display: flex;
+    height: 100vh;
+    width: 98.7vw;
+    align-items: center;
+    justify-content: center;
+
+}
+.frame3r h1{
+    color: var(--text-gray-900, #18191F);
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Heading / H3 */
+font-family: 'Inter';
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 800;
+/* line-height: 3.375rem; 135% */
+height: 7rem;
+width: 28rem;
+}
+.frame3r{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 3rem;
+}
+
+
+.frame3r p{
+    color: var(--text-gray-900, #18191F);
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Lead / Lead 1 */
+font-family: 'Inter';
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; /* 177.778% */
+}
+.frame3picsup{
+    display: flex;
+}
+.frame3picsup p{
+    color: #FFF;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Inter';
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.25rem; /* 83.333% */
+}
+.flexible, .happiness, .monthly, .choose{
+    height: 13rem;
+    width: 17rem;
+    margin: 0.3rem;
+    background-color: gray;
+}
+.flexible{
+    background: url(./images/unsplash_nEtpvJjnPVo.png) no-repeat;
+    background-color: rgb(203, 200, 200);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 15rem;
+    width: 10rem;
+ 
+}
+.happiness{
+    background: url(./images/Image\ 2.png) no-repeat;
+    background-color: rgb(203, 200, 200);
+    background-blend-mode: multiply;
+    background-size: 100%;
+    width: 19rem;
+}
+.monthly{
+    background: url(./images/unsplash_uooMllXe6gE.png) no-repeat;
+    background-color: rgb(203, 200, 200);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.choose{
+    background: url(./images/unsplash_XdWkFaHI97c.png) no-repeat;
+    background-color: rgb(203, 200, 200);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.frame3r button{
+    color: #FFF;
+    cursor: pointer;
+/* text-align: center; */
+font-family: 'Manrope';
+font-size: 0.8rem;
+font-style: normal;
+font-weight: 500;
+padding: 0.8rem;
+line-height: normal;
+border: none;
+width: fit-content;
+    border-radius: 0.3125rem;
+background-color: #F4511E;
+margin-top: 1rem;
+
+}
