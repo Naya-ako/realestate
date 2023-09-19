@@ -13,10 +13,19 @@
     display: flex;
     align-items: center;
     margin-bottom: 1.5rem;
+    width: 95%;
 }
 
 .frame2header .list{
     margin-right: 45rem;
+}
+.frame2body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    gap: 3%;   
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .toppart{
@@ -30,7 +39,8 @@
 }
 
 .prop1 img{
-    height: 15rem;
+    /* height: 15rem; */
+    height: 45%;
     width: 100%;
 }
 
@@ -38,9 +48,10 @@
     height: fit-content;
     border: 1px solid #E4E4E4;
     width: 20rem;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     border-radius: 2rem;
    border-top: 0px;
+   margin-bottom: 20px;
 }
 
 .descr{
@@ -138,7 +149,8 @@ font-style: normal;
 font-weight: 500;
 padding: 1rem;
 line-height: normal;
-    border-radius: 0.3125rem;
+border-radius: 0.3125rem;
+border: none;
 background-color: #F4511E;
 box-shadow: 0px 1.85185px 3.14815px 0px rgba(128, 126, 126, 0.02), 0px 8.14815px 6.51852px 0px rgba(208, 203, 202, 0.03), 0px 20px 13px 0px rgba(248, 90, 71, 0.04);
 }
@@ -151,7 +163,7 @@ box-shadow: 0px 1.85185px 3.14815px 0px rgba(128, 126, 126, 0.02), 0px 8.14815px
     margin-top: 20px;
 }
 .frame2footer button {
-    color: var(--orange);
+    color: #F4511E;
     background-color: #fff;
     border: 1px solid #E8E8E8;
     height: 60px;
@@ -167,7 +179,7 @@ box-shadow: 0px 1.85185px 3.14815px 0px rgba(128, 126, 126, 0.02), 0px 8.14815px
     border-radius:  0 7px 7px 0 ;   
 }
 .frame2footer .active {
-    background-color: var(--orange);
+    background-color: #F4511E;
     color: #fff;
     border: none;
 }
@@ -222,6 +234,20 @@ box-shadow: 0px 1.85185px 3.14815px 0px rgba(128, 126, 126, 0.02), 0px 8.14815px
     }
     .frame2header h1{
         font-size: 1.5rem;
+    }
+    .frame2header {
+        justify-content: space-around;
+    }
+    .frame2footer {
+        height: 60px;
+        margin-top: 25px;
+    }
+    .frame2footer button {
+        padding: 12px;
+        height: 45px;
+    }
+    .frame2footer button:nth-of-type(2), .pagination button:nth-of-type(3), .pagination button:nth-of-type(4) {
+        padding: 12px 8px;
     }
    
 }
