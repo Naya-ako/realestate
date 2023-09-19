@@ -118,7 +118,7 @@ width: 43%;
 } */
 
 @media screen and (max-width: 576px){
-    .headerbar .nav{
+    .headerbar nav{
         display: none;
     }
     .headercontent{
@@ -140,5 +140,8 @@ width: 43%;
     }
     .mappic{
         width: 100%;
+    }
+    .headerbar img{
+        margin-right: 3rem;
     }
 }
