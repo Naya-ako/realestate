@@ -58,3 +58,31 @@ margin-left: 3.8rem;
 margin-bottom: 0;
 /* border-bottom:3px solid #F4511E; */
 }
+@media screen and (max-width: 576px){
+    .frame1{
+        padding: 0;
+        padding-top: 2rem;
+    }
+    .frame1 h2, .frame1 svg{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+
+    }
+    .frame1 svg{
+        padding-right: 5rem;
+    }
+    .frame1Subsect svg{
+        height: 3rem ;
+        width: 3rem;
+        margin-left: 0;
+        padding-right: 0;
+    }
+    .frame1Sub img{
+        width: 13rem;
+        height: 25rem;
+      
+    }
+    .frame1Subsect{
+        flex-direction: column;
+    }
+}

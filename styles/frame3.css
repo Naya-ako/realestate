@@ -102,3 +102,39 @@ background-color: #F4511E;
 margin-top: 1rem;
 
 }
+@media screen and (max-width: 576px){
+    .flexible, .happiness, .monthly, .choose{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 1rem;
+
+    }
+    .frame3{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    .frame3r{
+        margin: 0;
+        width: unset;
+        width: 100%;
+        padding: 2rem;
+    }
+    .frame3r p{
+       
+        text-align: center;
+    }
+    .frame3r h1{
+        font-size: 1.8rem;
+        width: auto;
+        margin-bottom: 1rem;
+        height: 4rem;
+    }
+    .frame3r button{
+        margin: auto;
+    }
+    .frame3pics p{
+        font-size: 0.8rem;
+        margin-top: 2rem;
+    }
+}

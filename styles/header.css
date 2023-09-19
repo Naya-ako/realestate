@@ -7,25 +7,25 @@
  }
  button:hover {
     cursor: pointer;}
-    
+
 header{
     height: 100vh;
     width: 98.7vw;
-    /* background: url(./images/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png) no-repeat; */
+    background: url(./images/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png) no-repeat;
     background-color: rgb(203, 200, 200);
     background-blend-mode: multiply;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 .headerbar{
     display: flex;
     align-items: flex-end;
     width: 80%;
-    border-bottom: 1px solid blueviolet;
+    border-bottom: 1px solid white;
     height: 13%;
     padding: 1rem 0;
 }
@@ -70,7 +70,7 @@ header form{
     width: 90%;
     height: 80%;
     align-items: center;
-    border: 1px solid rgb(49, 61, 186);
+    /* border: 1px solid rgb(49, 61, 186); */
     margin: auto;
     
 }
@@ -80,7 +80,7 @@ header form{
     display: flex;
     flex-direction: column;
     align-items:center ;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
 }
 .headercontent h1{
     color: #FFF;
@@ -107,7 +107,7 @@ width: 43%;
     height: 4.6rem;
     display: flex;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .formpart img{
     height: 3rem;
@@ -116,3 +116,29 @@ width: 43%;
     padding-right: 2rem;
     padding-left: 0;
 } */
+
+@media screen and (max-width: 576px){
+    .headerbar .nav{
+        display: none;
+    }
+    .headercontent{
+        flex-direction: column;
+    }
+    .headercontent h1{
+        font-size:1.8rem ;
+        line-height: 2rem;
+        text-align: center;
+        width: 80%;
+    }
+    .mappart{
+        width: 75%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+        /* background-color: blanchedalmond; */
+    }
+    .mappic{
+        width: 100%;
+    }
+}

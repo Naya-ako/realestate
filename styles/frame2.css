@@ -1,7 +1,7 @@
 .frame2{
     /* height: 100vh; */
     width: 98.7vw;
-    border: 1px solid black;
+  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,11 +36,11 @@
 
 .prop1{
     height: fit-content;
-    
+    border: 1px solid #E4E4E4;
     width: 20rem;
     margin-left: 1rem;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    border-radius: 2rem;
+   border-top: 0px;
 }
 
 .descr{
@@ -94,12 +94,18 @@ text-transform: capitalize;
 margin-left: 1rem;
 margin-bottom: 1rem;
 }
+.descr :first-child{
+    border-right: 1px solid #E4E4E4;
+}
+.descr :last-child{
+    border-left: 1px solid #E4E4E4;
+}
 
 .descrsub{
     display: flex;
     align-items: center;
     column-gap: 0.6rem;
-   border-top: 1px solid #818181; 
+   border-top: 1px solid #E4E4E4; 
   
    width: 7rem;
    padding: 1rem 2rem;
@@ -174,4 +180,47 @@ box-shadow: 0px 1.85185px 3.14815px 0px rgba(128, 126, 126, 0.02), 0px 8.14815px
 }
 .frame2footer .first:active {
     transform: scale(1);
+}
+@media screen and (max-width: 576px){
+   .frame2{
+    height: 100vh;
+    padding-top: 2rem;
+    justify-content: space-around;
+   }
+    .prop1 img{
+        height: 40%;
+    }
+    .prop1{
+        width: 7.8rem;
+        margin-left: 0.4rem;
+    }
+    .prop1 h2{
+        font-size: 0.6rem;
+        line-height: 0.8rem;
+    }
+    .descr{
+        display: none;
+    }
+    .prop1 h3{
+        font-size: 0.6rem;
+    }
+    .prop1 h4{
+        font-size: 0.55rem;
+    }
+    .toppart{
+        display: flex;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    .frame2header .list{
+      margin-right: 1rem;
+    }
+    .frame2header button{
+        padding: 0.5rem;
+        font-size: 0.6;
+    }
+    .frame2header h1{
+        font-size: 1.5rem;
+    }
+   
 }

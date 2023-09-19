@@ -142,3 +142,9 @@ input[type="file"] {
     color: #fff;
     border-radius: 9px;
 }
+@media screen and (max-width: 576px){
+    .add-property h4{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+}
