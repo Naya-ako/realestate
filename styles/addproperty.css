@@ -25,7 +25,7 @@
     padding: 35px 0;
 }
 .form h3 {
-    color: var(--orange);
+    color: #F4511E;
     text-align: center;
     font-size: clamp(17px, 1.9vw, 30px);
     font-weight: 700;
@@ -81,7 +81,7 @@
     color: var(--orange);
 } */
 .input-container span {
-    color: var(--orange);
+    color: #F4511E;
 }
 .description {
     width: 100%;
@@ -111,10 +111,7 @@ input[type="file"] {
 .input-container button {
     width: 90%;
     height: 80px;
-    /* border: 1px dashed var(--orange); */
-    border: 2px solid transparent;
-    border-image: repeating-linear-gradient(90deg, var(--orange), var(--orange) 10px, transparent 5px, transparent 20px);
-    border-image-slice: 1;
+    border: 1px dashed #F4511E;
     background: rgba(244, 81, 30, 0.01);
     border-radius: 10px;
 }
@@ -124,7 +121,7 @@ input[type="file"] {
     font-weight: 500;
 }
 .input-container button p:nth-of-type(1) span {
-    color: orange;
+    color: #F4511E;
     font-weight: 700;
 }
 .input-container button p:nth-of-type(2) {
